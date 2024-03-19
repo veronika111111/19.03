@@ -82,3 +82,42 @@ text-align: center;
     color:var(--color-white);
     margin-top:24px;
 }
+.cards{
+    display: flex;
+    margin-top: 101px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width:359px;
+    height:171px;
+    color:var(--color-white);
+    border:3px solid;
+    border-color: #028FC9;
+    background-color: black;
+}
+.card h3{
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:var(--color-white);
+    margin-top:31px;
+}
+.card p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:var(--color-white);
+    margin-top:33px;
+}
+footer{
+    margin-top:143px;
+  
+}
+footer img{
+    margin-left: 84px;
+}
+.r{
+    display: flex;
+    flex-direction: row;
+}
